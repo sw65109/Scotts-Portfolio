@@ -65,5 +65,6 @@ Run `npm run build` to produce production assets in `dist/`. Deploy that folder 
 
 ## License
 
-This portfolio is provided for showcase purposes. Please replace branding, copy, and media with your own before reusing.
-      // other options...
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Note**: While the code is open source, please replace personal branding, content, and media with your own before reusing this portfolio template.
