@@ -21,7 +21,7 @@ const LandingSection = ({ onOpenModal, onToggleTheme, isDarkMode, }: LandingSect
         <ul className="nav__link--list">
           <li className="nav__link">
             <button
-              className="nav_-link--anchor 
+              className="nav__link--anchor 
               link__hover-effect 
               link__hover-effect--black"
               onClick={onOpenModal}

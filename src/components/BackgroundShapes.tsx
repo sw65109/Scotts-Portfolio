@@ -1,13 +1,18 @@
+import semiCircle from '../assets/circle.svg'
+import circle from '../assets/circle.svg'
+import squiggly from '../assets/squiggly.svg'
+import triangle from '../assets/triangle.svg'
+
 const shapeData = [
-  { className: "shape shape--0", src: "/assets/semi circle.svg" },
-  { className: "shape shape--1", src: "/assets/circle.svg" },
-  { className: "shape shape--2", src: "/assets/squiggly.svg" },
-  { className: "shape shape--3", src: "/assets/circle.svg" },
-  { className: "shape shape--4", src: "/assets/triangle.svg" },
-  { className: "shape shape--5", src: "/assets/circle.svg" },
-  { className: "shape shape--6", src: "/assets/squiggly.svg" },
-  { className: "shape shape--7", src: "/assets/circle.svg" },
-  { className: "shape shape--8", src: "/assets/semi circle.svg" },
+  { className: "shape shape--0", src: semiCircle },
+  { className: "shape shape--1", src: circle },
+  { className: "shape shape--2", src: squiggly },
+  { className: "shape shape--3", src: circle },
+  { className: "shape shape--4", src: triangle },
+  { className: "shape shape--5", src: circle },
+  { className: "shape shape--6", src: squiggly },
+  { className: "shape shape--7", src: circle },
+  { className: "shape shape--8", src: semiCircle },
 ];
 
 const BackgroundShapes = () => (
