@@ -2,6 +2,11 @@
 
 A responsive React + TypeScript portfolio that highlights Scott Weller’s work, skills, and contact information. The site features a modal-based “About” and “Contact” experience, theme toggling, parallax background shapes, and a curated project gallery.
 
+## Links
+
+- [Live Demo](https://scotts-portfolio-nine.vercel.app)
+- [GitHub Repository](https://github.com/sw65109/Scotts-Portfolio)
+
 ## Features
 
 - Landing page hero with quick links to About, Projects, Contact, and resume download

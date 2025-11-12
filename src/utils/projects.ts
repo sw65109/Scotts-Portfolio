@@ -9,8 +9,8 @@ export const projects: Project[] = [
     stack: "HTML, CSS, TypeScript, Vite, React",
     description:
       "A responsive, accessible portfolio site that showcases featured projects,resume, and contact links. Includes interactive features like darkmode, smooth scrolling, and downloadable assets.",
-    repo: "https://github.com/sw65109",
-    live: "#",
+    repo: "https://github.com/sw65109/Scotts-Portfolio",
+    live: "https://scotts-portfolio-nine.vercel.app/",
     image: blinkerMockupUrl,
   },
   {
@@ -19,7 +19,7 @@ export const projects: Project[] = [
     stack: "Vite, React, JavaScript, Firebase, Tailwind CSS",
     description:
       "Adapted from GreatStack's 2024 tutorial. Expanded with modular components, accessibility upgrades, and cert-grade logging. Features FireBase auth, responsive UI, and dynamic content rendering.",
-    repo: "https://github.com/sw65109/netflix-clone",
+    repo: "https://github.com/sw65109/Netflix-clone",
     live: "https://netflix-clone-taupe-two-69.vercel.app",
     image: netflixMockupUrl,
   },
