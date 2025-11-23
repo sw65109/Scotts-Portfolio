@@ -1,7 +1,8 @@
-import semiCircle from '../assets/circle.svg'
-import circle from '../assets/circle.svg'
-import squiggly from '../assets/squiggly.svg'
-import triangle from '../assets/triangle.svg'
+import semiCircle from '@/assets/semi circle.svg'
+import circle from '@/assets/circle.svg'
+import squiggly from '@/assets/squiggly.svg'
+import triangle from '@/assets/triangle.svg'
+import '@/components/BackgroundShapes.css'
 
 const shapeData = [
   { className: "shape shape--0", src: semiCircle },

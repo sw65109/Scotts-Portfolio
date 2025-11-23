@@ -1,6 +1,7 @@
-import ContactForm from './ContactForm';
-import type { ModalContent } from '../types/modal';
+import ContactForm from '@/components/ContactForm';
+import type { ModalContent } from '@/types/modal';
 import { useEffect, useRef } from 'react';
+import '@/components/Modal.css'
 
 interface ModalProps {
     isOpen: boolean;

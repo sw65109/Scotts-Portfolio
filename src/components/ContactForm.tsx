@@ -1,4 +1,5 @@
-import { useEmailForm } from '../hooks/useEmailForm';
+import { useEmailForm } from '@/hooks/useEmailForm';
+import '@/components/ContactForm.css'
 
 const ContactForm = () => {
     const { formRef, status, handleSubmit } = useEmailForm();
@@ -31,7 +32,7 @@ const ContactForm = () => {
             </button>
 
             <div className={`modal__overlay modal__overlay-success ${status === "success" ? "modal__overlay--visible" : ""}`}>
-                Thanks for messageing me! I look forward to speaking with you soon.
+                Thanks for messaging me! I look forward to speaking with you soon.
             </div>
         </form>
     );

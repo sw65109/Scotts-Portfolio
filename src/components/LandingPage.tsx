@@ -1,67 +1,21 @@
-import personalLogo from '../assets/personal logo.png'
-import resumePDF from '../assets/Resume.pdf'
+import resumePDF from '@/assets/Resume.pdf'
+import "@/components/LandingPage.css"
+import Navbar from '@/components/Navbar';
 
-type LandingSectionProps = {
+type LandingPageProps = {
   onOpenModal: () => void;
   onToggleTheme: () => void;
   isDarkMode: boolean;
 }
 
-const LandingSection = ({ onOpenModal, onToggleTheme, isDarkMode, }: LandingSectionProps) => (
+const LandingPage = ({ onOpenModal, onToggleTheme, isDarkMode, }: LandingPageProps) => (
   
     <section id="landing-page">
-      <nav>
-        <figure>
-          <img
-            id="personal-logo"
-            src={personalLogo}
-            alt="Scott Weller logo"
-          />
-        </figure>
-        <ul className="nav__link--list">
-          <li className="nav__link">
-            <button
-              className="nav__link--anchor 
-              link__hover-effect 
-              link__hover-effect--black"
-              onClick={onOpenModal}
-            >
-              About
-            </button>
-          </li>
-          <li className="nav__link">
-            <a 
-              className="nav__link-anchor 
-              link__hover-effect 
-              link__hover-effect--black"
-            >
-                Projects
-            </a>
-          </li>
-          <li className="nav__link">
-            <button
-              className="nav__link--anchor
-              link__hover-effect
-              link__hover-effect--black"
-              onClick={onOpenModal}
-            >
-                Contact
-            </button>
-          </li>
-          <li className="nav__link click">
-            <button
-              className="nav__link__anchor
-              link__hover-effect
-              link__hover-effect--black"
-              onClick={onToggleTheme}
-              aria-pressed={isDarkMode}
-            >
-                <i className="fas fa-adjust" aria-hidden="true" />
-                <span className="sr-only">toggle Theme</span>
-            </button>
-          </li>
-        </ul>
-      </nav>
+      <Navbar
+      onOpenModal={onOpenModal}
+      onToggleTheme={onToggleTheme}
+      isDarkMode={isDarkMode} 
+      />
 
       <header className="header">
         <div className="header__content">
@@ -110,4 +64,4 @@ const LandingSection = ({ onOpenModal, onToggleTheme, isDarkMode, }: LandingSect
 );
 
 
-export default LandingSection;
+export default LandingPage;

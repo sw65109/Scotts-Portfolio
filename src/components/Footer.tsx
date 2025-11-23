@@ -1,4 +1,5 @@
-import personalLogo from '../assets/personal logo.png'
+import personalLogo from '@/assets/personal logo.png'
+import '@/components/Footer.css'
 
 type FooterProps = {
     onOpenModal: () => void;

@@ -1,5 +1,5 @@
-import type { AboutContent } from "./profile";
-import type { Project } from "./projects";
+import type { AboutContent } from "@/types/profile";
+import type { Project } from "@/types/projects";
 
 export type ModalContent = {
     about: AboutContent;

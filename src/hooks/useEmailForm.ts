@@ -29,7 +29,7 @@ export function useEmailForm() {
             setTimeout(() => setStatus('idle'), resetDelay);
         } catch (error) {
             console.error('EmailJs error', error);
-            alert('The email service is temporarily unavailabe. Please contanct me directly at sjweller65109@gmail.com.');
+            alert('The email service is temporarily unavailable. Please contact me directly at sjweller65109@gmail.com.');
             setStatus('error');
             setTimeout(() => setStatus('idle'), 1000);
         }

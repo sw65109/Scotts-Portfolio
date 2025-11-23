@@ -1,16 +1,16 @@
-import type { AboutContent } from '../types/profile';
+import type { AboutContent } from '@/types/profile';
 
 export const ABOUT_CONTENT: AboutContent ={
     title: "Here's a bit about me.",
     subtitle: "Junior Frontend Software Engineer",
     body: `I'm a 43 year old Junior Frontend Software Engineer. I'm a hand's-on builder with experience in construction,
-    welding, manufacturing, and retail. From boat houses to powder mettal presses to motorcycle swap meets, I've learned to troubleshoot,
+    welding, manufacturing, and retail. From boat houses to powder metal presses to motorcycle swap meets, I've learned to troubleshoot,
     adapt, and deliver quality work.
 
-    Now I'm expanding into web development and UX, bringing practical skills into digital spaces. I value honset communication,
+    Now I'm expanding into web development and UX, bringing practical skills into digital spaces. I value honest communication,
     real-world problem solving, and learning by doing.`,
     contactTitle: "Lets have a chat!",
-    contactSubtitle: "I'm currently open to new oppertunities.",
+    contactSubtitle: "I'm currently open to new opportunities.",
     skills:[
         { label: "HTML", icon: "https://cdn.iconscout.com/icon/free/png-512/free-html-2752158-2284975.png?f=webp&w=256" },
         { label: "CSS", icon: "https://cdn.iconscout.com/icon/free/png-512/free-css-131-722685.png?f=webp&w=256" },
