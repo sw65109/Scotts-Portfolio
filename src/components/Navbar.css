@@ -37,6 +37,18 @@ nav {
     cursor: pointer;
 }
 
+.nav__link--anchor-primary {
+    background-color: #5B86E5;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+    transition: all 600ms ease;
+}
+
+.nav__link--anchor-primary:hover {
+    background-color: #36D1DC;
+}
+
 .fa-adjust {
     font-size: 20px;
 }

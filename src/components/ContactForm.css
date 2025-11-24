@@ -3,8 +3,9 @@
 }
 
 .form__submit {
-    background-color: #6964aa;
-    border: #6964aa;
+    background-color: #36D1DC;
+    border: #5B86E5;
+    border-radius: 12px;
     color: #ffffff;
     font-weight: bold;
     width: 100%;
@@ -20,6 +21,6 @@
 }
 
 .form__submit:active {
-    border-color: #6964aa;
-    color: #6964aa;
+    border-color: #36D1DC;
+    color: #5B86E5;
 }

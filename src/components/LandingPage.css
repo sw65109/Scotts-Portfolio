@@ -33,8 +33,8 @@
 }
 
 .social__link {
-    background-color: #0000ff;
-    color: white;
+    background-color: #5B86E5;
+    color: #ffffff;
     padding: 18px;
     width: 32px;
     height: 32px;
@@ -51,7 +51,7 @@
     height: 50px;
     font-size: 24px;
     border-radius: 50%;
-    background-color: #0000ff;
+    background-color: #5B86E5;
     color: #ffffff;
     border: none;
     position: fixed;
@@ -69,7 +69,7 @@
 .scroll__icon {
     width: 20px;
     height: 30px;
-    border: 2px solid #0000ff;
+    border: 2px solid #36D1DC;
     border-radius: 24px;
     display: flex;
     align-items: center;
@@ -80,7 +80,105 @@
     content: "";
     width: 4px;
     height: 6px;
-    background-color: #0000ff;
+    background-color: #36D1DC;
     border-radius: 2px;
     animation: scroll 1000ms infinite alternate-reverse;
+}
+
+/* Legacy hero layout helpers */
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.text--blue {
+    color: #5B86E5;
+}
+
+#about-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me__info--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-me__picture--mask {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    margin-bottom: 28px;
+}
+
+.about-me__picture {
+    width: 100%;
+    transform: scale(1.25);
+    padding-top: 8px;
+}
+
+.about-me__info--title {
+    margin-bottom: 16px;
+}
+
+.about-me__info--para {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.about-me__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-me__link {
+    font-size: 32px;
+    color: #5B86E5;
+    padding: 0 16px;
+    margin-bottom: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.about-me__link--button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.about-me__img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.wave {
+    display: inline-block;
+    animation: animate-wave 500ms infinite ease-in-out;
 }

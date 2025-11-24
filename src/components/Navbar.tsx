@@ -24,12 +24,12 @@ const Navbar = ({ onOpenModal, onToggleTheme, isDarkMode }: NavbarProps) => (
         </a>
       </li>
       <li className="nav__link">
-        <button
-          className="nav__link--anchor link__hover-effect link__hover-effect--black"
+        <a href='mailto:sjweller65109@gmail.com'
+          className="nav__link--anchor nav__link--anchor-primary"
           onClick={onOpenModal}
         >
           Contact
-        </button>
+        </a>
       </li>
       <li className="nav__link click">
         <button
