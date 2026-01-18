@@ -9,6 +9,10 @@ export const SKILLS = [
   { label: 'Tailwind CSS', icon: 'https://cdn.iconscout.com/icon/free/png-512/free-tailwind-css-5285308-4406745.png?f=webp&w=256' },
   { label: 'Firebase', icon: 'https://cdn.iconscout.com/icon/free/png-512/free-firebase-3521427-2944871.png?f=webp&w=256' },
   { label: 'Vite', icon: 'https://cdn.simpleicons.org/vite' },
+  { label: "MongoDB", icon: "https://cdn.iconscout.com/icon/free/png-512/free-mongodb-5-1175140.png?f=webp&w=256" },
+  { label: "Express", icon: "https://cdn.simpleicons.org/express/000000" },
+  { label: "Node.js", icon: "https://cdn.iconscout.com/icon/free/png-512/free-node-js-1174925.png?f=webp&w=256" },
+  { label: "Next.js", icon: "https://cdn.simpleicons.org/nextdotjs/000000" },
 ];
 
 export const ABOUT_CONTENT: AboutContent ={

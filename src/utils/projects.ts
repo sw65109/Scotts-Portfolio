@@ -17,8 +17,8 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Netflix Clone (Inspired by GreatStack)",
-    stack: "Vite, React, JavaScript, Firebase, Tailwind CSS",
+    title: "Netflix Clone (Inspired by Ali Codes)",
+    stack: "Next.js, React, TypeScript, Firebase, Tailwind CSS",
     description:
       "Adapted from GreatStack's 2024 tutorial. Expanded with modular components, accessibility upgrades, and cert-grade logging. Features Firebase auth, responsive UI, and dynamic content rendering.",
     repo: "https://github.com/sw65109/netflixclone.git",
@@ -28,7 +28,7 @@ export const projects: Project[] = [
   {
     id: 3,
     title: "spotify-fullstack (Created following GreatStack tutorial)",
-    stack: "Vite, Tailwind, JavaScript",
+    stack: "Vite, Tailwind, JavaScript, MongoDB, Node.js, Express",
     description:
       "Adapted from GreatStack's 2024 tutorial. Expanded with user login and admin login.",
     repo: "https://github.com/sw65109/spotify-fullstack.git",
