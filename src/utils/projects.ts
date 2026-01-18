@@ -1,4 +1,4 @@
-import blinkerMockupUrl from '@/assets/blinker mockup.png'
+import portfolio from '@/assets/portfolio.png'
 import netflixclone from '@/assets/netflixclone.png'
 import spotifyclone from '@/assets/spotifyclone.png'
 
@@ -13,7 +13,7 @@ export const projects: Project[] = [
       "A responsive, accessible portfolio site that showcases featured projects, resume, and contact links. Includes interactive features like dark mode, smooth scrolling, and downloadable assets.",
     repo: "https://github.com/sw65109/Scotts-Portfolio",
     live: "https://scotts-portfolio-nine.vercel.app/",
-    image: blinkerMockupUrl,
+    image: portfolio,
   },
   {
     id: 2,
