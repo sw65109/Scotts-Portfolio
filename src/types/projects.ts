@@ -5,5 +5,6 @@ export type Project = {
     description: string;
     repo: string;
     live?: string;
+    demos?: {label: string; url: string}[];
     image: string;
 };

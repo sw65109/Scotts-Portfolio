@@ -1,5 +1,7 @@
 import blinkerMockupUrl from '@/assets/blinker mockup.png'
-import netflixMockupUrl from '@/assets/netflix-clone-mockup.png'
+import netflixclone from '@/assets/netflixclone.png'
+import spotifyclone from '@/assets/spotify-clone.png'
+'
 
 import type { Project } from "@/types/projects";
 export const projects: Project[] = [
@@ -19,18 +21,19 @@ export const projects: Project[] = [
     stack: "Vite, React, JavaScript, Firebase, Tailwind CSS",
     description:
       "Adapted from GreatStack's 2024 tutorial. Expanded with modular components, accessibility upgrades, and cert-grade logging. Features Firebase auth, responsive UI, and dynamic content rendering.",
-    repo: "https://github.com/sw65109/Netflix-clone",
-    live: "https://netflix-clone-taupe-two-69.vercel.app",
-    image: netflixMockupUrl,
+    repo: "https://github.com/sw65109/netflixclone.git",
+    live: "https://netflixclone-ytgj-mfs034gyx-sw65109s-projects.vercel.app/",
+    image: netflixclone,
   },
   {
     id: 3,
-    title: "UX Experiment",
-    stack: "Vue, Tailwind, Netlify",
+    title: "spotify-fullstack (Created following GreatStack tutorial)",
+    stack: "Vite, Tailwind, JavaScript",
     description:
-      "Rapid prototyping sandbox exploring form validation, deploy pipelines, and user-testing workflows.",
-    repo: "https://github.com/sw65109",
-    live: "#",
-    image: blinkerMockupUrl,
+      "Adapted from GreatStack's 2024 tutorial. Expanded with user login and admin login.",
+    repo: "https://github.com/sw65109/spotify-fullstack.git",
+    live: "https://spotify-fullstack-yrff-beygbfk9l-sw65109s-projects.vercel.app/",
+    demos: [{ label: "Admin panel", url: "https://spotify-fullstack-delta.vercel.app/" }],
+    image: spotifyclone,
   },
 ];
