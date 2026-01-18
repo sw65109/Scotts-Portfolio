@@ -1,7 +1,7 @@
 import blinkerMockupUrl from '@/assets/blinker mockup.png'
 import netflixclone from '@/assets/netflixclone.png'
-import spotifyclone from '@/assets/spotify-clone.png'
-'
+import spotifyclone from '@/assets/spotifyclone.png'
+
 
 import type { Project } from "@/types/projects";
 export const projects: Project[] = [
